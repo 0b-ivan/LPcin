@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenschutzerklärung – ${COMPANY_NAME}</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 2rem; line-height: 1.65; color: #111; }
+    main { max-width: 900px; margin: 0 auto; }
+    h1, h2 { line-height: 1.2; margin-top: 2rem; }
+    a { word-break: break-word; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="/">← Zurück</a></p>
+    <h1>Datenschutzerklärung</h1>
+    <p>Stand: ${LAST_UPDATED}</p>
+
+    <h2>1. Verantwortlicher</h2>
+    <p>Verantwortlich für die Datenverarbeitung ist:</p>
+    <p>
+      ${DATA_CONTROLLER}<br>
+      ${COMPANY_ADDRESS}<br>
+      E-Mail: <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>
+    </p>
+
+    <h2>2. Datenschutzkontakt</h2>
+    <p>Datenschutzbezogene Anfragen kannst du an folgende Stelle richten: ${DPO_CONTACT}</p>
+
+    <h2>3. Bereitstellung der Website</h2>
+    <p>Beim Aufruf dieser Website werden technisch erforderliche Verbindungsdaten verarbeitet, um die Seite auszuliefern, Stabilität und Sicherheit zu gewährleisten und Missbrauch zu erkennen.</p>
+    <p>Hosting-Provider: ${HOSTING_PROVIDER}<br>
+       Hosting-Standort: ${HOSTING_LOCATION}<br>
+       Speicherdauer von Server-Logs: ${LOG_RETENTION}<br>
+       Rechtsgrundlage: ${LEGAL_BASIS}</p>
+
+    <h2>4. Kontaktaufnahme</h2>
+    <p>Wenn du uns kontaktierst, verarbeiten wir die von dir übermittelten Angaben zur Bearbeitung deiner Anfrage und für mögliche Rückfragen.</p>
+
+    <h2>5. Anmeldung mit Google</h2>
+    <p>Google OAuth aktiviert: ${GOOGLE_OAUTH}</p>
+    <p>${GOOGLE_OAUTH_DETAILS}</p>
+
+    <h2>6. Cookies</h2>
+    <p>Cookies aktiviert: ${COOKIES_ENABLED}</p>
+    <p>${COOKIES_DETAILS}</p>
+
+    <h2>7. Analyse und Tracking</h2>
+    <p>Analyse aktiviert: ${ANALYTICS_ENABLED}</p>
+    <p>${ANALYTICS_DETAILS}</p>
+
+    <h2>8. Empfänger von Daten</h2>
+    <p>Eine Weitergabe personenbezogener Daten erfolgt nur, soweit dies zur Bereitstellung des Dienstes erforderlich ist, eine gesetzliche Verpflichtung besteht oder du eingewilligt hast.</p>
+
+    <h2>9. Speicherdauer</h2>
+    <p>Wir speichern personenbezogene Daten nur so lange, wie dies für die jeweiligen Zwecke erforderlich ist oder gesetzliche Aufbewahrungspflichten bestehen.</p>
+
+    <h2>10. Deine Rechte</h2>
+    <p>Dir stehen nach Maßgabe der gesetzlichen Voraussetzungen insbesondere folgende Rechte zu: Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit, Widerspruch sowie Beschwerde bei einer Datenschutzaufsichtsbehörde.</p>
+
+    <h2>11. Änderungen</h2>
+    <p>Wir können diese Datenschutzerklärung anpassen, wenn sich rechtliche, technische oder organisatorische Rahmenbedingungen ändern.</p>
+  </main>
+</body>
+</html>

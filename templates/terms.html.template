@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nutzungsbedingungen – ${COMPANY_NAME}</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 2rem; line-height: 1.65; color: #111; }
+    main { max-width: 900px; margin: 0 auto; }
+    h1, h2 { line-height: 1.2; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="/">← Zurück</a></p>
+    <h1>Nutzungsbedingungen</h1>
+    <p>Stand: ${LAST_UPDATED}</p>
+
+    <h2>1. Geltungsbereich</h2>
+    <p>${TERMS_SCOPE}</p>
+
+    <h2>2. Anbieter</h2>
+    <p>
+      ${COMPANY_NAME}<br>
+      ${COMPANY_ADDRESS}<br>
+      E-Mail: <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>
+    </p>
+
+    <h2>3. Nutzung des Dienstes</h2>
+    <p>Die Nutzung ist nur im Einklang mit geltendem Recht und diesen Nutzungsbedingungen zulässig.</p>
+
+    <h2>4. Benutzerkonto</h2>
+    <p>Benutzerkonto erforderlich: ${ACCOUNT_REQUIRED}</p>
+    <p>Sofern ein Benutzerkonto erforderlich ist, sind Zugangsdaten vertraulich zu behandeln und vor dem Zugriff Dritter zu schützen.</p>
+
+    <h2>5. Unzulässige Nutzung</h2>
+    <p>Untersagt sind insbesondere missbräuchliche Nutzung, rechtswidrige Inhalte, Störung des Betriebs, Umgehung technischer Schutzmaßnahmen sowie Eingriffe in Rechte Dritter.</p>
+
+    <h2>6. Sperrung und Beendigung</h2>
+    <p>${TERMINATION_RULES}</p>
+
+    <h2>7. Haftung</h2>
+    <p>${LIABILITY_RULES}</p>
+
+    <h2>8. Inhalte und Rechte</h2>
+    <p>Alle Rechte an bereitgestellten Inhalten, Marken, Logos und Software verbleiben bei uns oder den jeweiligen Rechteinhabern, soweit nicht ausdrücklich anders angegeben.</p>
+
+    <h2>9. Änderungen des Dienstes</h2>
+    <p>Wir dürfen den Dienst weiterentwickeln, anpassen oder einstellen, soweit berechtigte Interessen dies erfordern.</p>
+
+    <h2>10. Schlussbestimmungen</h2>
+    <p>${GOVERNING_LAW}</p>
+  </main>
+</body>
+</html>

@@ -11,25 +11,18 @@
     nav a { margin-right: 1rem; }
     .card { padding: 1rem 1.25rem; border: 1px solid #ddd; border-radius: 10px; margin: 1rem 0; }
     footer { margin-top: 3rem; color: #555; font-size: 0.95rem; }
-    code { background: #f4f4f4; padding: 0.1rem 0.35rem; border-radius: 6px; }
   </style>
 </head>
 <body>
   <main>
     <h1>${SITE_TITLE}</h1>
     <p>Öffentliche Rechtstexte für <strong>${COMPANY_NAME}</strong>.</p>
-    <p>${SERVICE_DESCRIPTION}</p>
 
     <nav>
       <a href="/privacy.html">Datenschutzerklärung</a>
       <a href="/terms.html">Nutzungsbedingungen</a>
       <a href="/imprint.html">Impressum</a>
     </nav>
-
-    <div class="card">
-      <h2>Geltungsbereich</h2>
-      <p>Diese Seiten dienen insbesondere der transparenten Information über die Datenverarbeitung und Nutzungsregeln für die private Plattform unter <code>${WEBSITE_URL}</code>.</p>
-    </div>
 
     <div class="card">
       <h2>Kontakt</h2>
