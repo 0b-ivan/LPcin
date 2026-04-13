@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Impressum – ${COMPANY_NAME}</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 2rem; line-height: 1.65; color: #111; }
+    main { max-width: 900px; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="/">← Zurück</a></p>
+    <h1>Impressum</h1>
+    <p>
+      ${COMPANY_NAME}<br>
+      ${COMPANY_ADDRESS}
+    </p>
+    <p>
+      Vertreten durch: ${MANAGING_DIRECTOR}<br>
+      E-Mail: <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a><br>
+      Website: <a href="${WEBSITE_URL}">${WEBSITE_URL}</a>
+    </p>
+    <p>Bitte ergänze dieses Impressum um die für dich rechtlich erforderlichen Pflichtangaben, z. B. Handelsregister, Registernummer, USt-IdNr. oder zuständige Aufsichtsbehörde, falls einschlägig.</p>
+  </main>
+</body>
+</html>

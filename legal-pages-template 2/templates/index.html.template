@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${SITE_TITLE}</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 2rem; line-height: 1.6; color: #111; }
+    main { max-width: 900px; margin: 0 auto; }
+    h1, h2 { line-height: 1.2; }
+    nav a { margin-right: 1rem; }
+    .card { padding: 1rem 1.25rem; border: 1px solid #ddd; border-radius: 10px; margin: 1rem 0; }
+    footer { margin-top: 3rem; color: #555; font-size: 0.95rem; }
+    code { background: #f4f4f4; padding: 0.1rem 0.35rem; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>${SITE_TITLE}</h1>
+    <p>Öffentliche Rechtstexte für <strong>${COMPANY_NAME}</strong>.</p>
+    <p>${SERVICE_DESCRIPTION}</p>
+
+    <nav>
+      <a href="/privacy.html">Datenschutzerklärung</a>
+      <a href="/terms.html">Nutzungsbedingungen</a>
+      <a href="/imprint.html">Impressum</a>
+    </nav>
+
+    <div class="card">
+      <h2>Geltungsbereich</h2>
+      <p>Diese Seiten dienen insbesondere der transparenten Information über die Datenverarbeitung und Nutzungsregeln für die private Plattform unter <code>${WEBSITE_URL}</code>.</p>
+    </div>
+
+    <div class="card">
+      <h2>Kontakt</h2>
+      <p>${COMPANY_NAME}<br>${COMPANY_ADDRESS}<br><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></p>
+    </div>
+
+    <footer>
+      Stand: ${LAST_UPDATED}
+    </footer>
+  </main>
+</body>
+</html>
